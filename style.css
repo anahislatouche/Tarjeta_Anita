@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+.bgimagen {
+  position: absolute;
+}
+.bgimagen-top {
+  top: -550px;
+  left: -300px;
+}
+.bgimagen-bottom {
+  bottom: -550px;
+  right: -300px;
+}
+.card {
+  position: relative;
+  margin: 5rem auto;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 8px 18px 20px -11px rgba(0, 0, 0, 0.75);
+}
+.card_header {
+  position: relative;
+  height: 150px;
+  text-align: center;
+}
+.patron {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+}
+.container_foto {
+  top: 95px;
+  margin: 0 auto;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.foto {
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  height: 100%;
+}
+.body_card {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.text_card {
+  margin: 0;
+}
+.text_card--light {
+  color: rgb(0 0 0 / 0.5);
+}
+.mundo {
+  padding-top: 10px;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  border-top: 2px solid rgb(0 0 0 / 0.1);
+  padding: 1rem;
+}
+.card_stats {
+  text-align: center;
+  display: inline-block;
+}
+.card_number {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
